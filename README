@@ -1,0 +1,15 @@
+Write a Simple Hello World Kernel Module
+
+Installing the linux headers
+
+You need to install the linux-headers-.. first as shown below. Depending on your distro, use apt-get or yum.
+
+# apt-get install build-essential linux-headers-$(uname -r)
+
+Next, create the following hello.c module in C programming language.
+
+reate Makefile to Compile Kernel Module
+
+The following makefile can be used to compile the above basic hello world kernel module.
+
+Use the make command to compile hello world kernel module as shown below.
